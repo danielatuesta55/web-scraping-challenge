@@ -37,6 +37,9 @@ def scrape():
     
     print(f"News_Titel:{news_title}")
     print(f"News_Paragraph :{news_p}")
+    
+    # Close the browser after scraping
+    browser.quit()
 
     #featured_image_url 
     browser = init_browser()
@@ -58,6 +61,9 @@ def scrape():
 
     featured_image_url = url + image_name
     print(f"The image complete url for the featured image is: {featured_image_url}")
+    
+    # Close the browser after scraping
+    browser.quit()
 
     #Mars Facts step 3 
     url = 'https://space-facts.com/mars/'
@@ -67,6 +73,9 @@ def scrape():
     html_table = mars_df.to_html(header = None, index = False)
     html_table.replace('\n','')
 
+    # Close the browser after scraping
+    browser.quit()
+    
     #Step 4 hemisphere 
     browser = init_browser()
     url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'

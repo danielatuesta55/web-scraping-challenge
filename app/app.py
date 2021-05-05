@@ -4,7 +4,8 @@ import scrape_mars
 
 # Create an instance of Flask
 app = Flask(__name__)
-
+#app.config["MONGO_URI"] = "mongodb://localhost:27017/myDatabase"
+#mongo = PyMongo(app)
 # Use PyMongo to establish Mongo connection
 mongo = PyMongo(app, uri="mongodb://localhost:27017/mars_application")
 
@@ -17,10 +18,10 @@ def home():
     mars_data = mongo.db.collection.find_one()
 
     #make auto generated table a bootstrap style table
-    mars_data["Mars_Table"]=mars_data["Mars_Table"].replace('<table border="1" class="dataframe">',"<table class='table table-sm'>")
+    #mars_data["Mars_Table"]=mars_data["Mars_Table"].replace('<table border="1" class="dataframe">',"<table class='table table-sm'>")
     
     print("--- MONGO DATA ---")
-    print(mars_data)
+    print(mars_data) 
     print("--- END MONGO DATA ---")
 
     # Return template and data
