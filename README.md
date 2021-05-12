@@ -4,7 +4,7 @@
 
 ### Intention of the Repository
 
-This Repository has been made to summit the homework assignment for my Data Science Bootcamp at Northwestern University
+This Repository has been made to submmit the homework assignment for my Data Science Bootcamp at Northwestern University
 
 Web scraping challenge
 
