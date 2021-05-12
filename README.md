@@ -12,7 +12,6 @@ Student: Jorge Daniel Atuesta
 
 May, 2021
 
-
 ### Inside of this repository
 
 In this repository, the reader will encounter my solution to the homework assignment Web scraping challange. The repository is organized in folders and a README.md (The file you are currently reading). Here is the list of the folders and their contents so you can navigate through them.
@@ -32,14 +31,15 @@ I hope you find my work not only to be complete but to display all the knowledge
 
 I hope you find my work not only to be complete but to display all the knowledge learned throughout this portion of the Data Science Bootcamp at Northwestern University.
 
+**Important note**: If your browser displays an error while running the code, check if the page is still loading (you can do this by looking at the left side of the url if a circle appears than it means its running.) Please wait until the page finishes loading to get the final result. 
+
 ## Web Scraping Project
 
 ![mission_to_mars](Images/mission_to_mars.png)
 
-
 ### Project's Aim
 
-Using HTML, CSS, Bootstrap, python and pandas I was tasked to create a webpage to display the data scraped from some urls that had information on Mars.
+Build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
 #### Project's Challanges
 
@@ -89,7 +89,6 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 
 ![before](Images/1.png)
 
-
 ### Web page after scraping
 
 ![before](Images/2.png)
@@ -98,7 +97,7 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 
 ### Data base on Mongo DB after running the code.
 
-You can see a new db base is created as well as a collection where its storing all the data that was scrapped. This same data is then pulled into the webpage and populate the fields as shown above. 
+You can see a new db base is created as well as a collection where its storing all the data that was scrapped. This same data is then pulled into the webpage and populate the fields as shown above.
 
 ![before](Images/5.png)
 
