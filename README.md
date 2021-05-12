@@ -83,6 +83,25 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 * Create a root route `/` that will query your Mongo database and pass the mars data into an HTML template to display the data.
 * Create a template HTML file called `index.html` that will take the mars data dictionary and display all of the data in the appropriate HTML elements. Use the following as a guide for what the final product should look like, but feel free to create your own design.
 
+## Project Outcome
+
+### Initial webpage without scraping
+
+![before](Images/1.png)
+
+
+### Web page after scraping
+
+![before](Images/2.png)
+
+![before](Images/3.png)![before](Images/4.png)
+
+### Data base on Mongo DB after running the code.
+
+You can see a new db base is created as well as a collection where its storing all the data that was scrapped. This same data is then pulled into the webpage and populate the fields as shown above. 
+
+![before](Images/5.png)
+
 ## References
 
 Richardson, L. (2020). *Beautiful Soup Documentation*. Retrieved from crummy: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
